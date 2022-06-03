@@ -1,0 +1,40 @@
+	Ø Authentication is the process of verifying the identity of a given user or client.
+	Ø Authentication is the process of verifying that a user really is who they claim to be, whereas authorization involves verifying whether a user is allowed to do something.
+
+Vulnerabilities In Authentication Mechanisms
+	• Vulnerabilities in password-based login 
+	• Vulnerabilities in multi-factor authentication 
+	• Vulnerabilities in other authentication mechanisms 
+
+	1) Password Based Login
+	A) Brute-Force Attacks
+	i.  An attacker uses a system of trial and error in an attempt to guess valid user credentials.
+	ii. These attacks are typically automated using wordlists of usernames and passwords.
+	iii. Special attention should be paid to:
+	- Status Codes
+	- Error Messages
+	- Response Times
+	
+	B) Username Enumeration
+	An attacker is able to observe changes in the website's behavior in order to identify whether a given username is valid.
+	
+	
+Brute Force Protection
+	- Locking the account that the remote user is trying to access if they make too many failed login attempts
+	- Blocking the remote user's IP address if they make too many login attempts in quick succession
+	- User rate limiting
+
+Vulnerabilities In Multi-Factor Authentication
+require users to prove their identity using multiple authentication factors.
+A) Bypassing two-factor authentication
+B) Flawed two-factor verification logic
+C) Brute-forcing 2FA verification codes
+
+
+	
+
+
+
+
+
+
